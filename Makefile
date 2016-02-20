@@ -1,6 +1,6 @@
 testbuild:test.cc
 	@echo building testrun..
-	g++ test.cc -otestbin
+	g++ test.cc -o testbin
 clean:testbin
 	rm testbin
 	rm *.o
